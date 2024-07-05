@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="task1.css">
+    <script src="task1.js" defer></script> <!-- Corrected script link -->
+</head>
+<body>
+    <div class="container">
+        <div class="vertical-nav">
+            <h2>sidebar</h2>
+            <ul>
+                <li><a href="showall.html">show all</a></li>
+                <li><a href="dress.html">Dress</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="makeup.html">MakeUp</a></li>
+                <li><a href="jewllwery.html">Jewllery</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <nav class="horizontal-nav">
+                <div class="header">Welcome to my Gallery Collection</div>
+            </nav>
+            <div class="gallery">
+                <div class="gallery-row">
+                    <div class="gallery-item"><img src="istockphoto-1445988034-1024x1024 - Copy.jpg"Image 1" class="gallery-image" style="height: 300px;"></div>
+                    <div class="gallery-item"><img src="istockphoto-1371246639-1024x1024.jpg" alt="Image 2" class="gallery-image" style="height: 300px;"></div>
+                    <div class="gallery-item"><img src="istockphoto-1253049041-1024x1024.jpg" alt="Image 3" class="gallery-image" style="height: 300px;" ></div>
+                </div>
+                <div class="gallery-row">
+                    <div class="gallery-item"><img src="istockphoto-1333958419-1024x1024.jpg" alt="Image 4" class="gallery-image" style="height: 300px;"></div>
+                    <div class="gallery-item"><img src="istockphoto-1369846116-1024x1024.jpg" alt="Image 5" class="gallery-image" style="height:300px;"></div>
+                    <div class="gallery-item"><img src="istockphoto-1370831236-1024x1024.jpg" alt="Image 6" class="gallery-image" style="height: 300px;"></div>
+                </div>
+                <div class="gallery-row">
+                    <div class="gallery-item"><img src="istockphoto-1540951542-1024x1024.jpg" alt="Image 1" class="gallery-image" style="height: 300px;"></div>
+                    <div class="gallery-item"><img src="istockphoto-1601495321-1024x1024.jpg" alt="Image 2" class="gallery-image" style="height: 300px;"></div>
+                    <div class="gallery-item"><img src="istockphoto-1744118163-1024x1024.jpg" alt="Image 3" class="gallery-image" style="height: 300px;" ></div>
+                </div>
+                <div class="gallery-row">
+                    <div class="gallery-item"><img src="jew1.jpg" alt="Image 1" class="gallery-image" style="height: 300px;"></div>
+                    <div class="gallery-item"><img src="jew2.jpg" alt="Image 2" class="gallery-image" style="height: 300px;"></div>
+                    <div class="gallery-item"><img src="jew3.jpg" alt="Image 3" class="gallery-image" style="height: 300px;" ></div>
+                </div>
+                <!-- Add more gallery rows as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+</body>
+</html>
